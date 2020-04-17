@@ -21,5 +21,7 @@ import PackageDescription
 	        .testTarget(
 	            name: "ScrollableGraphViewTests",
 	            dependencies: ["ScrollableGraphView"]),
-	    ]
+	    ],
+	swiftLanguageVersions: [.v5]
+
 	)
